@@ -11,3 +11,64 @@ body {
   width: 100%;
   margin: auto;
 }
+
+.topLeft {
+  border-right: 4px black solid;
+  border-bottom: 4px black solid;
+  padding-bottom: 4vh;
+  justify-items: center;
+
+}
+
+.topCenter {
+  border-right: 4px black solid;
+  border-left: 4px black solid;
+  border-bottom: 4px black solid;
+  padding-bottom: 4vh;
+}
+.topRight {
+  border-left: 4px black solid;
+  border-bottom: 4px black solid;
+  padding-bottom: 4vh;
+}
+
+.middleLeft {
+  border-top: 4px black solid;
+  border-right: 4px black solid;
+  border-bottom: 4px black solid;
+  padding-bottom: 4vh;
+}
+.middleCenter {
+  border: 4px black solid;
+  padding-bottom: 4vh;
+}
+.middleRight {
+  border-top: 4px black solid;
+  border-left: 4px black solid;
+  border-bottom: 4px black solid;
+  padding-bottom: 4vh;
+}
+
+.bottomLeft {
+  border-top: 4px black solid;
+  border-right: 4px black solid;
+  padding-bottom: 4vh;
+}
+
+.bottomCenter {
+  border-top: 4px black solid;
+  border-right: 4px black solid;
+  border-left: 4px black solid;
+  padding-bottom: 4vh;
+}
+
+.bottomRight {
+  border-top: 4px black solid;
+  border-left: 4px black solid;
+  padding-bottom: 4vh;
+}
+
+
+
+
+

@@ -51,7 +51,6 @@ class BoardController extends React.Component {
     if (this.props.winner === false) {
       return (
         <div>
-          <p>This is our board!!</p>
           <Board 
             board={gameBoard}
             symbolFunction={this.addSymbolToBoard}
