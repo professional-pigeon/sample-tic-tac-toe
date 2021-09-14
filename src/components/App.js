@@ -8,12 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-
-      <div class="center">
       <BoardController />
-      </div>
-
-
     </>
 
   );
