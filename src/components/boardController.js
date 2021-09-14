@@ -24,7 +24,8 @@ class BoardController extends React.Component {
       location2: y
     }
     dispatch(action)
-    if (this.state.selectedPlayer = "O") {
+    console.log(this.state.selectedPlayer)
+    if (this.state.selectedPlayer === "O") {
       this.setState({
         selectedPlayer: "X"
       })

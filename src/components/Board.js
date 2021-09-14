@@ -8,18 +8,18 @@ function Board(props) {
     <div>
       <Row>
         <Col onClick={() => props.symbolFunction(0,0)}>{props.board[0][0]}</Col>
-        <Col >{props.board[0][1]}</Col>
-        <Col>{props.board[0][2]}</Col>
+        <Col onClick={() => props.symbolFunction(0,1)}>{props.board[0][1]}</Col>
+        <Col onClick={() => props.symbolFunction(0,2)}>{props.board[0][2]}</Col>
       </Row>
       <Row>
-        <Col>{props.board[1][0]}</Col>
-        <Col>{props.board[1][1]}</Col>
-        <Col>{props.board[1][2]}</Col>
+        <Col onClick={() => props.symbolFunction(1,0)}>{props.board[1][0]}</Col>
+        <Col onClick={() => props.symbolFunction(1,1)}>{props.board[1][1]}</Col>
+        <Col onClick={() => props.symbolFunction(1,2)}>{props.board[1][2]}</Col>
       </Row>
       <Row>
-        <Col>{props.board[2][0]}</Col>
-        <Col>{props.board[2][1]}</Col>
-        <Col>{props.board[2][2]}</Col>
+        <Col onClick={() => props.symbolFunction(2,0)}>{props.board[2][0]}</Col>
+        <Col onClick={() => props.symbolFunction(2,1)}>{props.board[2][1]}</Col>
+        <Col onClick={() => props.symbolFunction(2,2)}>{props.board[2][2]}</Col>
       </Row>
     </div>
   )
